@@ -1,0 +1,1 @@
+data_merged = pd.concat([acc_df.iloc[:, :3], gyr_df], axis=1)
